@@ -70,7 +70,8 @@ button{
 
   &:hover {
     transform: translate(0, .25em);
-    background-color: aqua;
+    background-color: darkblue;
+    color: white;
 
     &::before {
       box-shadow:
@@ -95,12 +96,11 @@ button{
 
 
 main {
-     background-color: darkblue;
-     background-image: linear-gradient(to left,darkblue -50%, darkcyan -50%, aqua -50%, rgb(125, 151, 207) 100%);
+     background-color: rgb(226, 229, 231);
      width: 900px;
      height: 470px;
      padding-top: 180px;
-     margin-left: 6px;
+     margin-left: 5px;
      
 }
 
