@@ -3,7 +3,7 @@ body {
      box-sizing: border-box;
 }
 section {
-     display: inline-block;
+     display: flex;
      
 }
 
@@ -24,6 +24,7 @@ aside {
      width: 150px;
      border: 4px solid blue;
 }
+
 #code{
      width: 200px;
      height: 150px;
@@ -69,6 +70,7 @@ button{
     transform: translate(0, .15em);
     color: blue;
     box-shadow: 5px 5px 5px darkblue;
+  
 
     
   }
@@ -130,7 +132,7 @@ main {
 
 #icons > a:hover {
      box-shadow: 5px 5px 5px darkblue;
-
+     font-size: 20px;
 }
 
 #conhecimentos {
@@ -166,6 +168,21 @@ main {
      height: auto;
      position: fixed;
      margin-left: 300px;
+}
+
+.flexItem > h2 {
+     margin: 50px;
+}
+
+#flexText {
+     margin-left: 60px;
+     font-size: large;
+}
+
+#imgBrain {
+     width: 300px ;
+     margin-left: 600px;
+     position: relative;
 }
 
 
